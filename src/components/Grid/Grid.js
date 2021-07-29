@@ -12,6 +12,8 @@ function Grid() {
   let gridTiles = useSelector((state) => state.grid);
   let dispatch = useDispatch();
 
+  console.log(gridTiles);
+
   return (
     <div>
       <div style={{maxWidth: 400, overflow: 'hidden'}}>
